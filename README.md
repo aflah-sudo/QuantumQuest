@@ -2,7 +2,7 @@
 
 > ⚠️ **Disclaimer:** This project is discontinued and preserved solely for educational and technical demonstration purposes. It is not intended for use with any live services or platforms.
 
-QuantumQuest is a modular Python-based automation framework built for simulating human interaction with web services across multiple accounts and devices. It showcases advanced browser automation, fingerprint evasion, and multi-threaded task orchestration using **Selenium**, **JSON-based configuration**, and **encryption/obfuscation** techniques.
+QuantumQuest is a modular Python-based automation framework built for simulating human interaction with web services across multiple accounts and devices. It showcases advanced browser automation, fingerprint evasion, and multi-threaded task orchestration using **Selenium**, **JSON-based configuration**.
 
 ---
 
@@ -87,26 +87,6 @@ QuantumQuest is a modular Python-based automation framework built for simulating
   * Search engines
   * Task types
   * Account sources
-
-
-## 🔐 Obfuscation & Encrypted Gateway Access
-
-QuantumQuest includes an encrypted gateway client, **not the actual automation logic**. This obfuscated Python file served as a secure interface for verified users to connect to a central **Linux server** running the full Selenium-based automation suite.
-
-* Implemented using:
-
-  * **pyarmor** for code protection
-  * **nuitka/cython** for additional encryption (optional builds)
-* Gateway script securely collected basic device identifiers (e.g., hardware ID, OS, IP) and validated credentials.
-* Instead of distributing passwords, the server used node-based validation with dynamic user authentication.
-* Server-side infrastructure included:
-
-  * **NGINX reverse proxy**
-
-The project operated in a **subscription model** with 50+ active users until it was discontinued due to high maintenance overhead and server resource constraints.
-
-For rationale and architectural insights, refer to the [Code Obfuscation Notice](CODE_OBFUSCATION_NOTICE.md).
-
 
 ---
 
